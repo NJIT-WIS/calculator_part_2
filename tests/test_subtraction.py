@@ -1,6 +1,8 @@
 """This is the starting test file"""
+from app.subtraction import subtraction
 
 
-def test_remove_meant_to_fail_must_remove():
+def test_subtraction():
     """This always passes"""
-    assert False
+    difference = subtraction(2, 2)
+    assert difference == 0

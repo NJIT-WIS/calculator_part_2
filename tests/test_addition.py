@@ -1,6 +1,8 @@
 """This is the starting test file"""
+from app.addition import addition
 
 
-def test_remove_meant_to_fail_must_remove():
+def test_addition():
     """This always passes"""
-    assert False
+    sum_num = addition(2, 2)
+    assert sum_num == 4
