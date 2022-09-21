@@ -13,7 +13,7 @@ The purpose of this assignment is to introduce you to the basic concepts of obje
    product.
 
 
-Instructor Video - [Watch Here]()
+Instructor Video - [Watch Here](https://youtu.be/UwiVZ_5pCSU)
 
 ### Module Readings:
 
