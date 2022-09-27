@@ -12,21 +12,21 @@ first OOP design pattern that is called the "factory pattern."
 2. Add  a create factory method that returns a class instance on the calculation class
 3. Add a get result method on the calculation class that returns the result property
 4. Add a set result method on the calculation class that sets the result property
-5. Add a constructor to each ope
-6. is extended by an addition, subtraction, division and multiplication classes
-   respectively.
-7. Each arithmetic operation should call a get result method to return the result of the operation. i.e. The addition
-   get result method should return the result of addition, the subtraction class get result should return the
-   subtraction result, etc...
+5. Add a constructor to the calculator class to set val1 and val2 properties
+6. Create addition, subtraction, division and multiplication concrete classes that extend the calculator class
+7. Add a class constructor to each operation class above that calls the parent constructor with "super" keyword and then set the result using the associated operation function i.e. set result using the addition function 
+8. Write a test using the isInstance function to verify each instance type i.e. one test for each operation
+9. Refactor your code so that each class is in its own file in the app folder
+10. Write parameterized tests with at least 4 distinct sets of values 
+11. Make sure all functions are tested.
 
-Instructor Video - [Watch Here](https://youtu.be/UwiVZ_5pCSU)
+Instructor Video - Part 1 [Watch Here](https://youtu.be/hXqD_jbfCwQ)
+Instructor Video - Part 2 - To Be Announced
+
 
 ### Module Readings:
 
-1. https://www.educative.io/answers/object-oriented-concepts-as-explained-to-a-6-year-old
-2. https://realpython.com/python3-object-oriented-programming/
-3. https://realpython.com/instance-class-and-static-methods-demystified/
-4. https://realpython.com/python-namespaces-scope/
+To Be Determined
 
 ### Prerequisite Knowledge
 
