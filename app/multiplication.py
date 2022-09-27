@@ -1,5 +1,6 @@
-"""This file contains additoin fucntions"""
+"""Multiplication functinos"""
+
 
 def multiplication(val1, val2):
-    """This always passes"""
+    """Multiplication """
     return val1 * val2
