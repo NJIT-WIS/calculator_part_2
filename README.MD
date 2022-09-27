@@ -10,7 +10,7 @@ The purpose of this assignment is to introduce you to the basic concepts of obje
    for these operations as well as the divide by zero exception.
 2. Create a calculator class that has four static methods (addition, subtraction, division and multiplication). Each
    method should call the corresponding function i.e. multiply calls the multiplication function and returns the
-   product.
+   product. 
 
 
 Instructor Video - [Watch Here](https://youtu.be/UwiVZ_5pCSU)
