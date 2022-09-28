@@ -1,5 +1,5 @@
 """This is the starting test file"""
-from app.subtraction import subtraction
+from app.operations import subtraction
 
 
 def test_subtraction():

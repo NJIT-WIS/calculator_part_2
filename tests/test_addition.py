@@ -1,5 +1,5 @@
 """This is the starting test file"""
-from app.addition import addition
+from app.operations import addition
 
 
 def test_addition():

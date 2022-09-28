@@ -1,6 +1,6 @@
 """This is the starting test file"""
 import pytest
-from app.division import division
+from app.operations import division
 
 
 def test_division():

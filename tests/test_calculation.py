@@ -1,14 +1,15 @@
 """This is the calculation class """
-from app.addition import addition
-from app.multiplication import multiplication
-from app.division import division
-from app.subtraction import subtraction
+from app.operations import *
 
 
 def test_addition_calculation():
     """Add Two Numbers"""
-    addition_instance = Addition.create(2, 2)
-    assert addition_instance.get_result() == 4, "Addition is not working"
+    # notice that each instance is independent of each other
+    addition_instance_1 = Addition.create(2, 2)
+    addition_instance_2 = Addition.create(3, 3)
+
+    assert addition_instance_1.get_result() == 4, "Addition is not working"
+    assert addition_instance_2.get_result() == 6, "Addition is not working"
 
 
 def test_addition_instance():
@@ -18,7 +19,7 @@ def test_addition_instance():
 
 
 class Calculation:
-    """My Base Calculation Class"""
+    """My abstract Base Calculation Class"""
     result = 0
     val1 = 0
     val2 = 0
@@ -37,13 +38,29 @@ class Calculation:
         """Get the result of a calculation"""
         self.result = result
 
+    def set_val1(self, val1):
+        """Get the result of a calculation"""
+        self.val1 = val1
+
+    def set_val2(self, val2):
+        """Get the result of a calculation"""
+        self.val2 = val2
+
+    def get_val1(self):
+        """Get the result of a calculation"""
+        return self.val1
+
+    def get_val2(self):
+        """Get the result of a calculation"""
+        return self.val2
+
     def get_result(self):
         """Get the result of a calculation"""
         return self.result
 
 
 class Addition(Calculation):
-    """My Addition Calculation Class"""
+    """My Addition Concrete Calculation Class"""
 
     def __init__(self, val1, val2):
         """concrete class constructor calls the """
@@ -52,7 +69,7 @@ class Addition(Calculation):
 
 
 class Subtraction(Calculation):
-    """My Subtraction Calculation Class"""
+    """My Subtraction Concrete Calculation Class"""
 
     def __init__(self, val1, val2):
         super().__init__(val1, val2)
@@ -60,7 +77,7 @@ class Subtraction(Calculation):
 
 
 class Division(Calculation):
-    """My Division Calculation Class"""
+    """My Division Concrete Calculation Class"""
 
     def __init__(self, val1, val2):
         super().__init__(val1, val2)
@@ -68,7 +85,7 @@ class Division(Calculation):
 
 
 class Multiplication(Calculation):
-    """My Multiplication Calculation Class"""
+    """My Multiplication Concrete Calculation Class"""
 
     def __init__(self, val1, val2):
         super().__init__(val1, val2)

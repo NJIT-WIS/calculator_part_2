@@ -1,9 +1,9 @@
 """Calculator Class"""
 
-from app.addition import addition
-from app.division import division
-from app.multiplication import multiplication
-from app.subtraction import subtraction
+from app.operations import addition
+from app.operations import division
+from app.operations import multiplication
+from app.operations import subtraction
 
 
 class Calculator:

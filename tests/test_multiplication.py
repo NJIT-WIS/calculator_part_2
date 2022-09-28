@@ -1,5 +1,5 @@
 """This is the starting test file"""
-from app.multiplication import multiplication
+from app.operations import multiplication
 
 
 def test_multiplication():
