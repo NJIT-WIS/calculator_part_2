@@ -4,7 +4,7 @@
 
 The purpose of this assignment is to introduce you to the implementation of encapsulation, inheritance, polymorphism,
 and abstraction. You will learn how to implement static, class, and instance methods as well as be introduced to your
-first OOP design pattern that is called the "factory pattern."  You must write the code to pass
+first OOP design pattern that is called the "factory pattern."  You must write the implementation code to pass
 the [teacher calculation](tests/test_calculation_teacher.py)
 and [teacher calculator tests](tests/test_calculator_teacher.py).
 
