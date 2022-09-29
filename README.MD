@@ -10,6 +10,12 @@ and [teacher calculator tests](tests/test_calculator_teacher.py). THIS WILL NOT 
 YOU ARE GOING TO NEED TO KNOW HOW TO WRITE THE CODE AND LEARN BY FIXING ERROR MESSAGES. IF YOU NEED HELP POST A
 SCREENSHOT TO SLACK OR THE DISCUSSION BOARD FOR THE UNIT.
 
+# Grading Rubric
+* 50 Points for calculator teacher tests passing
+* 50 Points for calculation teacher tests passing
+
+Note:  You will receive a 0 if you do not follow the Object Oriented Designs ideas in the unit.
+
 ### Assignment Instructions
 
 1. Create a calculation abstract class
