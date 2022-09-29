@@ -29,7 +29,7 @@ Note:  You will receive a 0 if you do not follow the Object Oriented Designs ide
    result based on calling the correct operation
 
 Instructor Video - Part 1 [Watch Here](https://youtu.be/hXqD_jbfCwQ)
-Instructor Video - Part 2 - To Be Announced
+Instructor Video - Part 2 - [Watch Here](https://youtu.be/scowyVU0wZw)
 
 ### Module Readings:
 
