@@ -6,7 +6,9 @@ The purpose of this assignment is to introduce you to the implementation of enca
 and abstraction. You will learn how to implement static, class, and instance methods as well as be introduced to your
 first OOP design pattern that is called the "factory pattern."  You must write the implementation code to pass
 the [teacher calculation](tests/test_calculation_teacher.py)
-and [teacher calculator tests](tests/test_calculator_teacher.py).
+and [teacher calculator tests](tests/test_calculator_teacher.py). THIS WILL NOT WORK AT ALL WITHOUT YOU WRITING CODE.
+YOU ARE GOING TO NEED TO KNOW HOW TO WRITE THE CODE AND LEARN BY FIXING ERROR MESSAGES. IF YOU NEED HELP POST A
+SCREENSHOT TO SLACK OR THE DISCUSSION BOARD FOR THE UNIT.
 
 ### Assignment Instructions
 
@@ -25,7 +27,8 @@ Instructor Video - Part 2 - To Be Announced
 
 ### Module Readings:
 
-1. Is Instance https://pynative.com/python-isinstance-explained-with-examples/#h-how-to-use-isinstance-function-in-python
+1. Is
+   Instance https://pynative.com/python-isinstance-explained-with-examples/#h-how-to-use-isinstance-function-in-python
 2. Class Method Factor - https://dev.to/danyson/how-classmethod-in-python-helps-in-implementing-factory-methods-23gl
 
 ## Vocabulary
@@ -33,7 +36,8 @@ Instructor Video - Part 2 - To Be Announced
 1. Class - Schematic for an object or a organizational tool like a folder to organize methods and properties into
    logical groups like a directory. Classes are the blueprints / design of your program
 2. Instance - Copy of a class with its own data
-3. Class Member - The methods and properties of a class.  Think of the class as a club and the properties and methods are the members
+3. Class Member - The methods and properties of a class. Think of the class as a club and the properties and methods are
+   the members
 4. Property - Data i.e. variable that describes the class
 5. Method - Actions of the class
 6. Abstract Class - Generic representation of a class type i.e. pet
@@ -46,10 +50,14 @@ Instructor Video - Part 2 - To Be Announced
 12. Class Method - Used to operate on class data that is not a copy / instance uses the cls keyword
 13. Instance Method - used to operate on the properties and methods of a class instance i.e. copy uses the self keyword
 14. Override - When a child's class member replaces a parents member
-15. Inheritance - Class Extension to connect e.g. connecting the calculation class to the Addition class to inherit the members of the calculation class
-16. Abstraction - layering from simple to complex e.g. how the calculator add method creates an addition instance and returns the result of the calculation
-17. Polymorphism - Many shapes - think of how we are using the get result method from the abstract calculation class to set the result for an addition 
-18. Encapsulation - Think of how we are creating multiple instances of Addition in the calculation test and each instance is independent from the other
+15. Inheritance - Class Extension to connect e.g. connecting the calculation class to the Addition class to inherit the
+    members of the calculation class
+16. Abstraction - layering from simple to complex e.g. how the calculator add method creates an addition instance and
+    returns the result of the calculation
+17. Polymorphism - Many shapes - think of how we are using the get result method from the abstract calculation class to
+    set the result for an addition
+18. Encapsulation - Think of how we are creating multiple instances of Addition in the calculation test and each
+    instance is independent from the other
 
 ### Prerequisite Knowledge
 
