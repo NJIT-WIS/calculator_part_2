@@ -1,42 +1,69 @@
-# OOP Calculator Part 1
+# OOP Calculator Part 2 - Work in Progress (WIP)
 
 ## Introduction
 
-The purpose of this assignment is to introduce you to the basic concepts of object-oriented programming (OOP)
+The purpose of this assignment is to introduce you to the implementation of encapsulation, inheritance, polymorphism,
+and abstraction. You will learn how to implement static, class, and instance methods as well as be introduced to your
+first OOP design pattern that is called the "factory pattern."
 
 ### Assignment Requirements
 
-1. Create the multiplication, division, subtraction, and addition functions independently of the class and have tests
-   for these operations as well as the divide by zero exception.
-2. Create a calculator class that has four static methods (addition, subtraction, division and multiplication). Each
-   method should call the corresponding function i.e. multiply calls the multiplication function and returns the
-   product. 
+1. Create a calculation abstract class
+2. Add a create factory method that returns a class instance on the calculation class
+3. Add a get result method on the calculation class that returns the result property
+4. Add a set result method on the calculation class that sets the result property
+5. Add get/set methods for val1 and val2 respectively
+6. Add a constructor to the calculator class to set val1 and val2 properties
+7. Create addition, subtraction, division and multiplication concrete classes that extend the calculator class
+8. Add a class constructor to each operation class above that calls the parent constructor with "super" keyword and then
+   set the result using the associated operation function i.e. set result using the addition function
+9. Write a test using the isInstance function to verify each instance type i.e. one test for each operation
+10. Refactor your code so that each class is in its own file in the app folder
+11. Make sure all functions are tested.
 
-
-Instructor Video - [Watch Here](https://youtu.be/UwiVZ_5pCSU)
+Instructor Video - Part 1 [Watch Here](https://youtu.be/hXqD_jbfCwQ)
+Instructor Video - Part 2 - To Be Announced
 
 ### Module Readings:
 
-1. https://www.educative.io/answers/object-oriented-concepts-as-explained-to-a-6-year-old
-2. https://realpython.com/python3-object-oriented-programming/
-3. https://realpython.com/instance-class-and-static-methods-demystified/
-4. https://realpython.com/python-namespaces-scope/
+1. Is
+   Instance https://pynative.com/python-isinstance-explained-with-examples/#h-how-to-use-isinstance-function-in-python
+2. Class Method Factor - https://dev.to/danyson/how-classmethod-in-python-helps-in-implementing-factory-methods-23gl
+
+## Vocabulary
+
+1. Class - Schematic for an object or a organizational tool like a folder to organize methods and properties into
+   logical groups like a directory.  Classes are the blueprints / design of your program
+2. Instance - Copy of a class with its own data
+3. Class Member - The methods and properties of a class
+4. Property - Data i.e. variable that describes the class
+5. Method - Actions of the class
+6. Abstract Class - Generic representation of a class type i.e. pet
+7. Concrete Class - Specific representation of a class type i.e Dog, Cat, etc...
+8. Factory Method - Generic method that returns an instance of a class
+9. Constructor Method - The first method automatically called when a class is instantiated into an object / instance
+10. Namespace - Equivalent to the files and folders that are used to logically organize a programs code
+11. Static Method / Property - Used to namespace properties and methods that don't need to operate on the class or an
+    instance of a class
+12. Class Method - Used to operate on class data that is not a copy / instance uses the cls keyword
+13. Instance Method - used to operate on the properties and methods of a class instance i.e. copy uses the self keyword
+14. Override - When a child's class member replaces a parents member
 
 ### Prerequisite Knowledge
 
-Note: Previously completed the unit testing module.
+Note: Previously completed on static methods
 
 ## Steps to Complete the Assignment
 
 1. Open Pycharm Pro / Pycharm Community and clone the assignment repository. Open up a terminal in Pycharm, run "pip
-   install -r requirements.txt" and then run "pytest".  **If pycharm shows you an error about pip / requirements when 
+   install -r requirements.txt" and then run "pytest".  **If pycharm shows you an error about pip / requirements when
    you clone the repo just skip/cancel/dismiss the error and run the command in the terminal like I said above**
 2. You will need to complete the requirements for the assignment and remove/replace the tests that are meant to fail
    that I placed in each file.
 3. When your pytest passes just commit and push it back to the origin and the assignment will be graded automatically by
    GitHub running the test that you run locally.
 4. Check that your tests pass on GitHub after you push the assignment and then submit a link to your repository to the
-   assignment in Canvas. In GitHub on the repository, click the actions tab on GitHub to see your tests run. You will 
+   assignment in Canvas. In GitHub on the repository, click the actions tab on GitHub to see your tests run. You will
    need to click on the autograding workflow to inspect that screen to see the detail test results.
 
 
