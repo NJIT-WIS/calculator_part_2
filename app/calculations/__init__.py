@@ -1,25 +1,10 @@
-"""This is the calculation class """
+"""Calculation abstract class and concrete operations"""
 from app.operations import *
-
-
-def test_addition_calculation():
-    """Add Two Numbers"""
-    # notice that each instance is independent of each other
-    addition_instance_1 = Addition.create(2, 2)
-    addition_instance_2 = Addition.create(3, 3)
-
-    assert addition_instance_1.get_result() == 4, "Addition is not working"
-    assert addition_instance_2.get_result() == 6, "Addition is not working"
-
-
-def test_addition_instance():
-    """Add Two Numbers"""
-    addition_instance = Addition.create(2, 2)
-    assert isinstance(addition_instance, Addition), "Is not an Addition Instance If this Fails"
 
 
 class Calculation:
     """My abstract Base Calculation Class"""
+    # Class Properties should get Getter and Setter
     result = 0
     val1 = 0
     val2 = 0

@@ -47,6 +47,7 @@ Instructor Video - Part 2 - To Be Announced
     instance of a class
 12. Class Method - Used to operate on class data that is not a copy / instance uses the cls keyword
 13. Instance Method - used to operate on the properties and methods of a class instance i.e. copy uses the self keyword
+14. Override - When a child's class member replaces a parents member
 
 ### Prerequisite Knowledge
 
