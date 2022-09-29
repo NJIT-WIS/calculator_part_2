@@ -63,7 +63,7 @@ Instructor Video - Part 2 - To Be Announced
 17. Polymorphism - Many shapes - think of how we are using the get result method from the abstract calculation class to
     set the result for an addition
 18. Encapsulation - Think of how we are creating multiple instances of Addition in the calculation test and each
-    instance is independent from the other
+    instance is independent of the other
 
 ### Prerequisite Knowledge
 
