@@ -39,31 +39,67 @@ Instructor Video - Part 2 - To Be Announced
 
 ## Vocabulary
 
-1. Class - Schematic for an object or a organizational tool like a folder to organize methods and properties into
+Class 
+: Schematic for an object or a organizational tool like a folder to organize methods and properties into
    logical groups like a directory. Classes are the blueprints / design of your program
-2. Instance - Copy of a class with its own data
-3. Class Member - The methods and properties of a class. Think of the class as a club and the properties and methods are
+
+Instance
+: Copy of a class with its own data
+
+Class Member
+: The methods and properties of a class. Think of the class as a club and the properties and methods are
    the members
-4. Property - Data i.e. variable that describes the class
-5. Method - Actions of the class
-6. Abstract Class - Generic representation of a class type i.e. pet
-7. Concrete Class - Specific representation of a class type i.e Dog, Cat, etc...
-8. Factory Method - Generic method that returns an instance of a class
-9. Constructor Method - The first method automatically called when a class is instantiated into an object / instance
-10. Namespace - Equivalent to the files and folders that are used to logically organize a programs code
-11. Static Method / Property - Used to namespace properties and methods that don't need to operate on the class or an
+
+Property
+: Data i.e. variable that describes the class
+
+Method
+: Actions of the class
+
+Abstract Class
+: Generic representation of a class type i.e. pet
+
+Concrete Class
+: Specific representation of a class type i.e Dog, Cat, etc...
+
+Factory Method
+: Generic method that returns an instance of a class
+
+Constructor Method
+: The first method automatically called when a class is instantiated into an object / instance
+
+Namespace
+: Equivalent to the files and folders that are used to logically organize a programs code
+
+Static Method / Property
+: Used to namespace properties and methods that don't need to operate on the class or an
     instance of a class
-12. Class Method - Used to operate on class data that is not a copy / instance uses the cls keyword
-13. Instance Method - used to operate on the properties and methods of a class instance i.e. copy uses the self keyword
-14. Override - When a child's class member replaces a parents member
-15. Inheritance - Class Extension to connect e.g. connecting the calculation class to the Addition class to inherit the
+
+Class Method
+: Used to operate on class data that is not a copy / instance uses the cls keyword
+
+Instance Method
+: Used to operate on the properties and methods of a class instance i.e. copy uses the self keyword
+
+Override
+: When a child's class member replaces a parents member
+
+Inheritance
+: Class Extension to connect e.g. connecting the calculation class to the Addition class to inherit the
     members of the calculation class
-16. Abstraction - layering from simple to complex e.g. how the calculator add method creates an addition instance and
+
+Abstraction
+: Layering from simple to complex e.g. how the calculator add method creates an addition instance and
     returns the result of the calculation
-17. Polymorphism - Many shapes - think of how we are using the get result method from the abstract calculation class to
+
+Polymorphism
+: Many shapes - think of how we are using the get result method from the abstract calculation class to
     set the result for an addition
-18. Encapsulation - Think of how we are creating multiple instances of Addition in the calculation test and each
-    instance is independent of the other
+
+Encapsulation
+: Think of how we are creating multiple instances of Addition in the calculation test and each
+    instance is independent from the other
+
 
 ### Prerequisite Knowledge
 
