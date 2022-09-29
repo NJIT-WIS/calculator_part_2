@@ -10,6 +10,9 @@ and [teacher calculator tests](tests/test_calculator_teacher.py). THIS WILL NOT 
 YOU ARE GOING TO NEED TO KNOW HOW TO WRITE THE CODE AND LEARN BY FIXING ERROR MESSAGES. IF YOU NEED HELP POST A
 SCREENSHOT TO SLACK OR THE DISCUSSION BOARD FOR THE UNIT.
 
+* Instructor Video - Part 1 [Watch Here](https://youtu.be/hXqD_jbfCwQ)
+* Instructor Video - Part 2 - [Watch Here](https://youtu.be/scowyVU0wZw)
+
 # Grading Rubric
 * 50 Points for calculator teacher tests passing
 * 50 Points for calculation teacher tests passing
@@ -27,9 +30,6 @@ Note:  You will receive a 0 if you do not follow the Object Oriented Designs ide
 7. Create addition, subtraction, division and multiplication concrete classes that extend the calculator class
 8. Add a constructor to each operation class .i.e. Addition, Multiplication, Division, and Subtraction that sets the
    result based on calling the correct operation
-
-Instructor Video - Part 1 [Watch Here](https://youtu.be/hXqD_jbfCwQ)
-Instructor Video - Part 2 - [Watch Here](https://youtu.be/scowyVU0wZw)
 
 ### Module Readings:
 
