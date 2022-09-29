@@ -4,36 +4,34 @@
 
 The purpose of this assignment is to introduce you to the implementation of encapsulation, inheritance, polymorphism,
 and abstraction. You will learn how to implement static, class, and instance methods as well as be introduced to your
-first OOP design pattern that is called the "factory pattern."
+first OOP design pattern that is called the "factory pattern."  You must write the code to pass
+the [teacher calculation](tests/test_calculation_teacher.py)
+and [teacher calculator tests](tests/test_calculator_teacher.py).
 
-### Assignment Requirements
+### Assignment Instructions
 
 1. Create a calculation abstract class
 2. Add a create factory method that returns a class instance on the calculation class
 3. Add a get result method on the calculation class that returns the result property
 4. Add a set result method on the calculation class that sets the result property
 5. Add get/set methods for val1 and val2 respectively
-6. Add a constructor to the calculator class to set val1 and val2 properties
+6. Add a constructor to the calculation class to set val1 and val2 properties
 7. Create addition, subtraction, division and multiplication concrete classes that extend the calculator class
-8. Add a class constructor to each operation class above that calls the parent constructor with "super" keyword and then
-   set the result using the associated operation function i.e. set result using the addition function
-9. Write a test using the isInstance function to verify each instance type i.e. one test for each operation
-10. Refactor your code so that each class is in its own file in the app folder
-11. Make sure all functions are tested.
+8. Add a constructor to each operation class .i.e. Addition, Multiplication, Division, and Subtraction that sets the
+   result based on calling the correct operation
 
 Instructor Video - Part 1 [Watch Here](https://youtu.be/hXqD_jbfCwQ)
 Instructor Video - Part 2 - To Be Announced
 
 ### Module Readings:
 
-1. Is
-   Instance https://pynative.com/python-isinstance-explained-with-examples/#h-how-to-use-isinstance-function-in-python
+1. Is Instance https://pynative.com/python-isinstance-explained-with-examples/#h-how-to-use-isinstance-function-in-python
 2. Class Method Factor - https://dev.to/danyson/how-classmethod-in-python-helps-in-implementing-factory-methods-23gl
 
 ## Vocabulary
 
 1. Class - Schematic for an object or a organizational tool like a folder to organize methods and properties into
-   logical groups like a directory.  Classes are the blueprints / design of your program
+   logical groups like a directory. Classes are the blueprints / design of your program
 2. Instance - Copy of a class with its own data
 3. Class Member - The methods and properties of a class
 4. Property - Data i.e. variable that describes the class
