@@ -33,30 +33,35 @@ Instructor Video - Part 2 - To Be Announced
 
 ### Module Readings:
 
-1. Is
-   Instance https://pynative.com/python-isinstance-explained-with-examples/#h-how-to-use-isinstance-function-in-python
+1. Is Instance https://pynative.com/python-isinstance-explained-with-examples/#h-how-to-use-isinstance-function-in-python
 2. Class Method Factor - https://dev.to/danyson/how-classmethod-in-python-helps-in-implementing-factory-methods-23gl
 
 ## Vocabulary
 
 Class 
-: Schematic for an object or a organizational tool like a folder to organize methods and properties into
+: Schematic for an object or an organizational tool like a folder to organize methods and properties into
    logical groups like a directory. Classes are the blueprints / design of your program
+
+Objects
+:  Objects are copies of a class; however, in OOP languages usually every keyword is itself an object.
+
+Instantiation
+: The process of taking class and making a copy of it. 
 
 Instance
 : Copy of a class with its own data
 
-Class Member
+Class Members
 : The methods and properties of a class. Think of the class as a club and the properties and methods are
    the members
 
-Property
+Property / Attribute
 : Data i.e. variable that describes the class
 
 Method
-: Actions of the class
+: Actions that can be taken by the class
 
-Abstract Class
+Abstract Class a.k.a. Parent Class although not all parent classes are abstract
 : Generic representation of a class type i.e. pet
 
 Concrete Class
@@ -98,7 +103,7 @@ Polymorphism
 
 Encapsulation
 : Think of how we are creating multiple instances of Addition in the calculation test and each
-    instance is independent from the other
+    instance is independent of the other
 
 
 ### Prerequisite Knowledge
